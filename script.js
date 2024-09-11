@@ -3,7 +3,6 @@ let tries = 0;
 
 
 function guessTheNumber() {
-    alert("Es funktioniert!" + numberToGuess)
 
     tries = tries + 1;
     displayTries.innerHTML = 'Versuche: ' + tries;
